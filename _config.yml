@@ -1,0 +1,65 @@
+---
+booktitle: Proceedings of the 30th International Conference on Algorithmic Learning
+  Theory
+shortname: ALT
+year: '2019'
+volume: 98
+start: 2019-03-22
+end: 2019-03-24
+published: 2010-03-09
+url: http://proceedings.mlr.press
+conference_number: '30'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: ALT19
+month: 0
+cycles: false
+bibtex_editor: Garivier, Aur\'elien and Kale, Satyen
+editor:
+- given: Aurélien
+  family: Garivier
+- given: Satyen
+  family: Kale
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 30th International Conference on Algorithmic Learning Theory
+    Held in Chicago, Illinois on 22-24 March 2019
+
+  Published as Volume 98 by the Proceedings of Machine Learning Research on 09 March 2010.
+
+  Volume Edited by:
+    Aurélien Garivier
+    Satyen Kale
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 22--24 Mar
+baseurl: "/v98"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v98
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: Algorithmic Learning Theory
+  url: 
+  location: Chicago, Illinois
+  dates:
+  - 2019-03-22
+  - 2019-03-23
+  - 2019-03-24
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v98/ALT19.bib
