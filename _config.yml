@@ -6,7 +6,7 @@ year: '2019'
 volume: 98
 start: 2019-03-22
 end: 2019-03-24
-published: 2010-03-10
+published: 2019-03-10
 url: http://proceedings.mlr.press
 conference_number: '30'
 layout: proceedings
@@ -25,7 +25,7 @@ description: |
   Proceedings of the 30th International Conference on Algorithmic Learning Theory
     Held in Chicago, Illinois on 22-24 March 2019
 
-  Published as Volume 98 by the Proceedings of Machine Learning Research on 10 March 2010.
+  Published as Volume 98 by the Proceedings of Machine Learning Research on 10 March 2019.
 
   Volume Edited by:
     Aurélien Garivier
@@ -52,7 +52,7 @@ display:
 email: ''
 conference:
   name: Algorithmic Learning Theory
-  url: http://alt2019.algorithmiclearningtheory.org/
+  url: 
   location: Chicago, Illinois
   dates:
   - 2019-03-22
