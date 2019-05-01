@@ -392,35 +392,35 @@ graphs. Our NP-hardness results for the latter are of independent interest in th
 @InProceedings{shang19Paper,
 	author    = {Shang, Xuedong and Kaufmann, Emilie and Valko, Michal},
 	title     = {General parallel optimization without a metric},
-	pages     = {762-787},
+	pages     = {762-788},
 	abstract  = {Hierarchical bandits are an approach for global optimization of \emph{extremely} irregular functions. This paper provides new elements regarding POO, an adaptive meta-algorithm that does not require the knowledge of local smoothness of the target function. We first highlight the fact that the subroutine algorithm used in POO should have a small regret under the assumption of \emph{local smoothness with respect to the chosen partitioning}, which is unknown if it is satisfied by the standard subroutine HOO. In this work,  we establish such regret guarantee for HCT, which is another hierarchical optimistic optimization algorithm that needs to know the smoothness. This confirms the validity of POO.  We show that POO can be used with HCT as a subroutine with a regret upper bound that matches the one of best-known algorithms using the knowledge of smoothness up to a $\sqrt{\log{n}}$ factor. On top of that, we further propose a more general wrapper, called GPO, that can cope with algorithms that only have simple regret guarantees.} 
 }
 
 @InProceedings{sheffet19Paper,
 	author    = {Sheffet, Or},
 	title     = {Old Techniques in Differentially Private Linear Regression},
-	pages     = {788-826},
+	pages     = {789-827},
 	abstract  = {We introduce three novel differentially private algorithms that approximate the $2^{\rm nd}$-moment matrix of the data. These algorithms, which in contrast to existing algorithms always output positive-definite matrices, correspond to existing techniques in linear regression literature. Thus these techniques have an immediate interpretation and all results known about these techniques are straight-forwardly applicable to the outputs of these algorithms. More specifically, we discuss the following three techniques. (i) For Ridge Regression, we propose setting the regularization coefficient so that by approximating the solution using Johnson-Lindenstrauss transform we preserve privacy. (ii) We show that adding a batch of $d+O(\epsilon^{-2})$ random samples to our data preserves differential privacy. (iii) We show that sampling the $2^{\rm nd}$-moment matrix from a Bayesian posterior inverse-Wishart distribution is differentially private. We also give utility bounds for our algorithms and compare them with the existing ``Analyze Gauss'' algorithm of Dwork et al.}
 }
 
 @InProceedings{stelmakh19Paper,
 	author = {Stelmakh, Ivan and Shah, Nihar B. and Singh, Aarti},
 	title     = {PeerReview4All: Fair and Accurate Reviewer Assignment in  Peer Review},
-	pages     = {827-855},
+	pages     = {828-856},
 	abstract  = {We consider the problem of automated assignment of papers to reviewers in conference peer review, with a focus on fairness and statistical accuracy. Our fairness objective is to maximize the review quality of the most disadvantaged paper, in contrast to the popular objective of maximizing the total  quality over all papers. We design an assignment algorithm based on an incremental max-flow procedure that we prove is near-optimally fair. Our statistical accuracy objective is to ensure correct recovery of the papers that should be accepted. With a sharp minimax analysis we also prove that our algorithm leads to assignments with strong statistical guarantees both in an objective-score model as well as a novel subjective-score model that we propose in this paper.} 
 }
 
 @InProceedings{wang19aPaper,
 	author    = {Wang, Weiran and Srebro, Nathan},
 	title     = {Stochastic Nonconvex Optimization with Large Minibatches},
-	pages     = {856-881},
+	pages     = {857-882},
 	abstract  = {We study stochastic optimization of nonconvex loss functions, which are typical objectives for training neural networks. We propose stochastic approximation algorithms which optimize a series of regularized, nonlinearized losses on large minibatches of samples, using only first-order gradient information. Our algorithms provably converge to an approximate critical point of the expected objective with faster rates than minibatch stochastic gradient descent, and facilitate better parallelization by allowing larger minibatches.}
 }
 
 @InProceedings{wang19bPaper,
 	author    = {Wang, Jun-Kun and Lu, Chi-Jen and Lin, Shou-De},
 	title     = {Online Linear Optimization with Sparsity Constraints},
-	pages     = {882-896},
+	pages     = {883-897},
 	abstract  = {
 	We study the problem of online linear optimization with sparsity constraints in the semi-bandit setting. It can be seen as a marriage between two well-known problems: the online linear optimization problem and the combinatorial bandit problem. For this problem, we provide an algorithm which is efficient and achieves a sublinear regret bound. Moreover, we extend our results to two generalized settings, one with delayed feedbacks and one with costs for receiving feedbacks. Finally, we conduct experiments which show the effectiveness of our methods in practice.} 
 }
@@ -428,7 +428,7 @@ graphs. Our NP-hardness results for the latter are of independent interest in th
 @InProceedings{wang19cPaper, 
 	author = {Wang, Di and Smith, Adam and Xu, Jinhui}, 
 	title = {Noninteractive Locally Private Learning of Linear Models via Polynomial Approximations}, 
-	pages = {897-902}, 
+	pages = {898-903}, 
 	abstract = {Minimizing a convex risk function is the main step in many basic learning algorithms. 
 	We study protocols for convex optimization which provably leak very little about the individual data points that constitute the loss function. Specifically, we consider differentially private algorithms that operate in the local model, where each data record is stored on a separate user device and randomization is performed locally by those devices. We give new protocols for \emph{noninteractive} LDP convex optimization---i.e., protocols that require only a single randomized report from each user to an untrusted aggregator. 
 	
@@ -442,7 +442,7 @@ graphs. Our NP-hardness results for the latter are of independent interest in th
 @InProceedings{wolfer19Paper,
 	author    = {Wolfer, Geoffrey and Kontorovich, Aryeh},
 	title     = {Minimax Learning of Ergodic Markov Chains},
-	pages     = {903-929},
+	pages     = {904-930},
 	abstract  = {We compute the finite-sample minimax (modulo logarithmic factors) sample complexity of learning the parameters of a finite Markov chain from a single long sequence of states. Our error metric is a natural variant of total variation. The sample complexity necessarily depends on the spectral gap and minimal stationary probability of the unknown chain, for which there are known finite-sample estimators with fully empirical confidence intervals. To our knowledge, this is the first PAC-type result with nearly matching (up to logarithmic factors) upper and lower bounds for learning, in any metric, in the context of Markov chains.} 
 }
 
