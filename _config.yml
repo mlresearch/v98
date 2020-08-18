@@ -1,6 +1,7 @@
 ---
 booktitle: Proceedings of the 30th International Conference on Algorithmic Learning
   Theory
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: ALT
 year: '2019'
 volume: 98
@@ -12,6 +13,7 @@ author:
   name: PMLR
 conference_number: '30'
 layout: proceedings
+publisher: PMLR
 series: Proceedings of Machine Learning Research
 issn: 2640-3498
 id: ALT19
@@ -42,6 +44,10 @@ baseurl: "/v98"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -70,6 +76,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
