@@ -1,5 +1,5 @@
 ---
-title: An Exponential Efron-Stein Inequality for Lq Stable Learning Rules
+title: An Exponential Efron-Stein Inequality for $L_q$ Stable Learning Rules
 abstract: "There is an accumulating evidence in the literature that \\emph{stability
   of learning algorithms} is a key characteristic that permits a learning algorithm
   to generalize. Despite various insightful results in this direction, there seems
@@ -28,7 +28,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: abou-moustafa19a
 month: 0
-tex_title: An Exponential Efron-Stein Inequality for Lq Stable Learning Rules
+tex_title: An Exponential Efron-Stein Inequality for $L_q$ Stable Learning Rules
 firstpage: 31
 lastpage: 63
 page: 31-63
